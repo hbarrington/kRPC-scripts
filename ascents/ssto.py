@@ -47,7 +47,7 @@ vessel.control.activate_next_stage()
 print("Engine start")
 time.sleep(2)
 vessel.control.activate_next_stage()
-print("Liftoff")
+print("We haz liftoffz!!!")
 
 # Turn
 alt = conn.get_call(getattr, vessel.flight(), 'surface_altitude')
